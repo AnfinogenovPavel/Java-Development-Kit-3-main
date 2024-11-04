@@ -1,4 +1,4 @@
-public static class Calculator {
+public static class calculator {
   // Обобщенный метод для сложения
     public static <T extends Number> double sum(T num1, T num2) {
       return num1.doubleValue() + num2.doubleValue();
@@ -26,10 +26,10 @@ public static class Calculator {
 
   public static void main(String[] args) {
     // Примеры использования
-    int intSumResult = (int) Calculator.sum(5, 3);
-    double doubleDivideResult = Calculator.divide(10.0, 2.5);
-    int intSubtractResult = (int) (int) Calculator.subtract(10, 5);
-    double doubleMultiplyResult = Calculator.multiply(3.5, 2.0);
+    int intSumResult = (int) calculator.sum(5, 3);
+    double doubleDivideResult = calculator.divide(10.0, 2.5);
+    int intSubtractResult = (int) (int) calculator.subtract(10, 5);
+    double doubleMultiplyResult = calculator.multiply(3.5, 2.0);
 
     System.out.println("Сумма: " + intSumResult);
     System.out.println("Результат деления: " + doubleDivideResult);
